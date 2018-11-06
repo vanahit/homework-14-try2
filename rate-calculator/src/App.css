@@ -1,0 +1,108 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+h1 {
+	font-size: 36px;
+	color: #4d4d4d;
+}
+main {
+    padding-left: 80px;
+    margin-top: 60px;
+	width: 40vw;
+	border: 2px  solid  #dddddd;
+	border-right: 0;
+	border-bottom: 0;
+}
+select {
+	font-size: 18px;
+	padding-left: 5px;
+	width: 155px;
+	height: 42px;
+	background-color: #e4e4e4; 
+}
+input {
+	font-size: 18px;
+	width: 155px;
+	height: 42px;
+	text-align: right;
+}
+.table {
+	margin-top: 20px;
+	width: 40vw;
+	display: table;
+}
+.input, .convert-amd {
+	width: 14vw;
+}
+.table-cell {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+.convert-amd, .converted-amd {
+	font-weight: bold;
+	font-size: 20px;
+}
+.converted-amd, .select {
+	max-width: 20vw;
+	margin-left: 10px;
+}
+.converted-amd span {
+	display: inline-block;
+	margin-top: 15px;
+	word-wrap: break-word;
+}
+.label {
+	width: 154px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: #a261c2;
+	font-size: 14px;
+}
+.currency-value {
+	width: 154px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+.bitcoin {
+	margin-top: 40px;
+}
+.bitcoin-title {
+	margin-bottom: 15px;
+	font-style: italic;
+	color: #5e49d1;
+}
+.bitcoin-title:hover, .refresh:hover {
+	cursor: pointer;
+}
+.bitcoin-rate {
+	width: 30vw;
+	padding-top: 25px;
+	border-top: 2px solid #dddddd;
+}
+.bitcoin-rate div {
+	padding-top: 10px;
+	font-style: italic;
+}
+.refresh{
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 10px;
+	font-style: italic;
+	color: #5e49d1;
+}
+.rate {
+	font-size: 20px;
+}
+.loader {
+	display: inline-block;
+}
+
+
